@@ -1,0 +1,17 @@
+.Transactions {
+  display: flex;
+  flex-direction: column;
+}
+
+.Transactions > .Ts:nth-child(odd) {
+  background-color: #efefef;
+}
+
+.Transactions > .Head, .Ts {
+  display: flex;
+  padding: 0.5rem 1rem;
+}
+
+.Ts > div, .Head > div { flex: 1; }
+
+.Head div { font-weight: bold; }

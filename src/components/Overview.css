@@ -1,0 +1,20 @@
+.Overview {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.Head, .Results {
+  display: flex;
+}
+
+.Head { margin-bottom: 0.5rem; }
+
+.Totals, .TotalsMonth {
+  flex: 1;
+}
+
+.CustomerId {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
